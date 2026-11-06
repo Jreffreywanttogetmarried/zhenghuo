@@ -1,0 +1,41 @@
+{
+  "slug": "000-3d-test",
+  "title": "3D 场景测试：Three.js 接入",
+  "genre": "mixed",
+  "palette": "science",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 8,
+  "styleRefs": {
+    "motion": "M21 原理拆解",
+    "art": "M18 数学/科学讲解 + 深蓝实验室",
+    "layout": "E1 极简几何"
+  },
+  "scenes": [
+    {
+      "id": "globe",
+      "module": "scenes/01-globe.js",
+      "start": 0,
+      "duration": 8,
+      "palette": "science"
+    }
+  ],
+  "titles": [],
+  "subtitles": [
+    {
+      "start": 0.5,
+      "end": 3.5,
+      "text": "3D 场景，接进同一条【渲染管线】",
+      "position": "bottom"
+    },
+    {
+      "start": 4.2,
+      "end": 7.2,
+      "text": "镜头、光弧、粒子，全部由【时间】决定",
+      "position": "bottom"
+    }
+  ],
+  "sources": "sources.md",
+  "notes": "notes.md"
+}

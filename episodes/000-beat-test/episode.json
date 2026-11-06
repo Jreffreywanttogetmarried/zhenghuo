@@ -1,0 +1,69 @@
+{
+  "slug": "000-beat-test",
+  "title": "BGM 卡点测试：120 BPM",
+  "genre": "mixed",
+  "palette": "science",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 12,
+  "audio": {
+    "src": "assets/audio/test-120bpm.wav",
+    "bpm": 120,
+    "offset": 0,
+    "loop": true,
+    "volume": 0.85,
+    "fadeOut": 1.5
+  },
+  "styleRefs": {
+    "motion": "M7 极简卡点",
+    "art": "E1 极简几何",
+    "layout": "F1 图表生长"
+  },
+  "scenes": [
+    {
+      "id": "pulse",
+      "module": "scenes/01-pulse.js",
+      "start": 0,
+      "duration": 4,
+      "palette": "science"
+    },
+    {
+      "id": "sequencer",
+      "module": "scenes/02-sequencer.js",
+      "start": 4,
+      "duration": 4,
+      "palette": "science"
+    },
+    {
+      "id": "grid",
+      "module": "scenes/03-grid.js",
+      "start": 8,
+      "duration": 4,
+      "palette": "science"
+    }
+  ],
+  "titles": [],
+  "subtitles": [
+    {
+      "start": 0.8,
+      "end": 3.8,
+      "text": "每一拍，画面都会轻轻地【脉冲】一次",
+      "position": "bottom"
+    },
+    {
+      "start": 4.8,
+      "end": 7.8,
+      "text": "每 8 拍，画面就会切换一次【场景】",
+      "position": "bottom"
+    },
+    {
+      "start": 8.8,
+      "end": 11.6,
+      "text": "卡点，卡的是【背景音乐】里的拍子",
+      "position": "bottom"
+    }
+  ],
+  "sources": "sources.md",
+  "notes": "notes.md"
+}

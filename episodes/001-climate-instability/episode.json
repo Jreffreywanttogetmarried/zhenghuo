@@ -1,0 +1,292 @@
+{
+  "slug": "001-climate-instability",
+  "title": "天气为什么越来越“没准”了？",
+  "genre": "science",
+  "palette": "science",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 120,
+  "subtitleFontSize": 72,
+  "styleRefs": {
+    "motion": "M21 原理拆解",
+    "art": "E1 极简几何",
+    "layout": "F1 图表生长",
+    "note": "M21 为文字参考，无静帧；E1、F1 有静帧。开头 0–15 秒用 history 暖色局部，形成“家里 → 地球”的对照。"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "module": "scenes/01-hook.js",
+      "start": 0,
+      "duration": 15,
+      "palette": "history"
+    },
+    {
+      "id": "blanket",
+      "module": "scenes/02-blanket.js",
+      "start": 15,
+      "duration": 20,
+      "palette": "science"
+    },
+    {
+      "id": "more-water",
+      "module": "scenes/03-more-water.js",
+      "start": 35,
+      "duration": 13,
+      "palette": "science"
+    },
+    {
+      "id": "wet-dry",
+      "module": "scenes/04-wet-dry.js",
+      "start": 48,
+      "duration": 14,
+      "palette": "science"
+    },
+    {
+      "id": "heat",
+      "module": "scenes/05-heat.js",
+      "start": 62,
+      "duration": 19,
+      "palette": "science"
+    },
+    {
+      "id": "life",
+      "module": "scenes/06-life.js",
+      "start": 81,
+      "duration": 29,
+      "palette": "science"
+    },
+    {
+      "id": "ending",
+      "module": "scenes/07-ending.js",
+      "start": 110,
+      "duration": 10,
+      "palette": "history"
+    }
+  ],
+  "titles": [
+    {
+      "start": 116.8,
+      "end": 120,
+      "text": "天气会更没准\n人可以更有准备",
+      "y": 430,
+      "fontSize": 110,
+      "maxWidth": 1500
+    }
+  ],
+  "subtitles": [
+    {
+      "start": 0.4,
+      "end": 3.6,
+      "text": "您有没有觉得，这几年的天气，越来越【没准】了？",
+      "position": "bottom"
+    },
+    {
+      "start": 3.8,
+      "end": 5.8,
+      "text": "这不是您的错觉，也不是多心。",
+      "position": "bottom"
+    },
+    {
+      "start": 6.0,
+      "end": 9.4,
+      "text": "最近 11 年，是有记录以来【最热】的 11 年。",
+      "position": "bottom"
+    },
+    {
+      "start": 9.6,
+      "end": 12.4,
+      "text": "但变暖，不只是“热一点”这么简单。",
+      "position": "bottom"
+    },
+    {
+      "start": 12.4,
+      "end": 15.0,
+      "text": "它让天气，变得更容易【走极端】。",
+      "position": "bottom"
+    },
+    {
+      "start": 15.4,
+      "end": 18.4,
+      "text": "地球外面，像盖上了一层【被子】。",
+      "position": "bottom"
+    },
+    {
+      "start": 18.4,
+      "end": 21.4,
+      "text": "这层被子，就是我们常说的【温室气体】。",
+      "position": "bottom"
+    },
+    {
+      "start": 21.4,
+      "end": 25.0,
+      "text": "2025 年，全球平均气温比工业化前高约【1.4℃】。",
+      "position": "bottom"
+    },
+    {
+      "start": 25.0,
+      "end": 28.6,
+      "text": "一度多，听起来不多；但这是【整个地球】的平均。",
+      "position": "bottom"
+    },
+    {
+      "start": 28.6,
+      "end": 32.2,
+      "text": "而且，中国的升温速度比全球平均【更快】。",
+      "position": "bottom"
+    },
+    {
+      "start": 32.2,
+      "end": 35.0,
+      "text": "每 10 年，平均升高约【0.31℃】。",
+      "position": "bottom"
+    },
+    {
+      "start": 35.4,
+      "end": 38.4,
+      "text": "变暖的第一步，是空气更能【装水】。",
+      "position": "bottom"
+    },
+    {
+      "start": 38.4,
+      "end": 42.0,
+      "text": "温度每升高 1℃，空气能多装约【7%】的水汽。",
+      "position": "bottom"
+    },
+    {
+      "start": 42.0,
+      "end": 45.0,
+      "text": "我们说的水汽，就是空气里的【水蒸气】。",
+      "position": "bottom"
+    },
+    {
+      "start": 45.0,
+      "end": 48.0,
+      "text": "平时看不见，却是暴雨的【原料】。",
+      "position": "bottom"
+    },
+    {
+      "start": 48.4,
+      "end": 51.4,
+      "text": "水汽一多，雨就更容易【下大】、下久。",
+      "position": "bottom"
+    },
+    {
+      "start": 51.4,
+      "end": 54.8,
+      "text": "从全国平均看，下雨的日子在【变少】。",
+      "position": "bottom"
+    },
+    {
+      "start": 54.8,
+      "end": 58.2,
+      "text": "可一旦下起来，暴雨会更【集中】、更猛。",
+      "position": "bottom"
+    },
+    {
+      "start": 58.2,
+      "end": 61.8,
+      "text": "结果就是：旱的地方更【旱】，涝的地方更【涝】。",
+      "position": "bottom"
+    },
+    {
+      "start": 62.2,
+      "end": 65.4,
+      "text": "还有一件大事，和每个家庭都有关。",
+      "position": "bottom"
+    },
+    {
+      "start": 65.4,
+      "end": 69.0,
+      "text": "整体变暖以后，高温天气更容易破【纪录】。",
+      "position": "bottom"
+    },
+    {
+      "start": 69.0,
+      "end": 72.6,
+      "text": "城市里，水泥和柏油白天吸热，晚上放热。",
+      "position": "bottom"
+    },
+    {
+      "start": 72.6,
+      "end": 75.6,
+      "text": "热气散不出去，热浪就更【难熬】。",
+      "position": "bottom"
+    },
+    {
+      "start": 75.6,
+      "end": 78.8,
+      "text": "有时候，热浪像被一个看不见的【锅盖】盖住。",
+      "position": "bottom"
+    },
+    {
+      "start": 78.8,
+      "end": 81.4,
+      "text": "这三种变化，最后都会落到【日子里】。",
+      "position": "bottom"
+    },
+    {
+      "start": 81.4,
+      "end": 84.6,
+      "text": "先说城市：同样的雨，更容易【积水】。",
+      "position": "bottom"
+    },
+    {
+      "start": 84.6,
+      "end": 88.2,
+      "text": "因为地面硬，水渗不下去，只能往低处流。",
+      "position": "bottom"
+    },
+    {
+      "start": 88.2,
+      "end": 91.8,
+      "text": "再说农田：该下雨时不下，不该下时猛下。",
+      "position": "bottom"
+    },
+    {
+      "start": 91.8,
+      "end": 95.4,
+      "text": "天气的波动，最后会落到【菜价、用电、出行】。",
+      "position": "bottom"
+    },
+    {
+      "start": 95.4,
+      "end": 99.0,
+      "text": "对老人来说，最要紧的是【高温】和【寒潮】。",
+      "position": "bottom"
+    },
+    {
+      "start": 99.0,
+      "end": 102.6,
+      "text": "热的时候，尽量别在中午长时间在外走。",
+      "position": "bottom"
+    },
+    {
+      "start": 102.6,
+      "end": 106.2,
+      "text": "冷的时候，降温往往来得【又急又猛】，要当心。",
+      "position": "bottom"
+    },
+    {
+      "start": 106.2,
+      "end": 110.0,
+      "text": "早晚温差大，出门前多看一眼【天气预报】。",
+      "position": "bottom"
+    },
+    {
+      "start": 110.0,
+      "end": 113.4,
+      "text": "地球没有突然坏掉，它只是变得更【敏感】。",
+      "position": "bottom"
+    },
+    {
+      "start": 113.4,
+      "end": 116.6,
+      "text": "我们改不了每一场雨，但可以多做一点准备。",
+      "position": "bottom"
+    }
+  ],
+  "sources": "sources.md",
+  "notes": "notes.md"
+}

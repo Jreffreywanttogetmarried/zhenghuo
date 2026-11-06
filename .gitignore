@@ -1,0 +1,41 @@
+# 渲染产物（源码可重新生成；如需保留样片，用 git add -f 单独加）
+episodes/*/output/*.mp4
+episodes/*/output/*.srt
+episodes/*/output/*.txt
+episodes/*/output/stills/
+episodes/*/output/cover/
+episodes/*/output/check-*/
+!episodes/*/output/.gitkeep
+/output/
+.render-*/
+*.log
+
+# 项目内技能：必须随仓库提交（防止全局 .claude 忽略规则误伤）
+!.claude/
+!.claude/skills/
+!.claude/skills/code-animation-prompts/
+!.claude/skills/code-animation-prompts/**
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.idea/
+.vscode/
+
+# 临时文件
+*.tmp
+*.bak

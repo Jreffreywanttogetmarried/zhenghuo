@@ -1,0 +1,42 @@
+{
+  "slug": "_template",
+  "title": "期数标题（替换）",
+  "genre": "science",
+  "palette": "science",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 6,
+  "audio": null,
+  "styleRefs": {
+    "motion": "M21 原理拆解（待替换）",
+    "art": "（待选）",
+    "layout": "（待选）"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "module": "scenes/01-hook.js",
+      "start": 0,
+      "duration": 6,
+      "palette": "science"
+    }
+  ],
+  "titles": [],
+  "subtitles": [
+    {
+      "start": 0.4,
+      "end": 3.2,
+      "text": "把【第一句钩子】写在这里，按每秒六到七个字",
+      "position": "bottom"
+    },
+    {
+      "start": 3.4,
+      "end": 5.6,
+      "text": "第二句字幕，按每秒 6–7 个字计算",
+      "position": "bottom"
+    }
+  ],
+  "sources": "sources.md",
+  "notes": "notes.md"
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>天气为什么越来越“没准”了？ | 科普视频工坊</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../../engine/base.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <script type="module">
+    import { startEpisode } from '../../engine/engine.js';
+    startEpisode(new URL('./episode.json', import.meta.url)).catch((err) => {
+      console.error(err);
+    });
+  </script>
+</body>
+</html>

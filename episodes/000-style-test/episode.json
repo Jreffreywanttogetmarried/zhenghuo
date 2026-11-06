@@ -1,0 +1,73 @@
+{
+  "slug": "000-style-test",
+  "title": "风格测试片：历史 / 科学 / 投资",
+  "genre": "mixed",
+  "palette": "science",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 12,
+  "styleRefs": {
+    "history": {
+      "motion": "M20 时间线/历史",
+      "art": "K35 旧学院风",
+      "layout": "L5 视觉调查"
+    },
+    "science": {
+      "motion": "M21 原理拆解",
+      "art": "M18 数学/科学讲解",
+      "layout": "E1 极简几何"
+    },
+    "investing": {
+      "motion": "L40 数据叙事",
+      "art": "F1 图表生长",
+      "layout": "H12 Editorial Forest"
+    }
+  },
+  "scenes": [
+    {
+      "id": "history",
+      "module": "scenes/01-history.js",
+      "start": 0,
+      "duration": 4,
+      "palette": "history"
+    },
+    {
+      "id": "science",
+      "module": "scenes/02-science.js",
+      "start": 4,
+      "duration": 4,
+      "palette": "science"
+    },
+    {
+      "id": "investing",
+      "module": "scenes/03-investing.js",
+      "start": 8,
+      "duration": 4,
+      "palette": "investing"
+    }
+  ],
+  "titles": [],
+  "subtitles": [
+    {
+      "start": 0.45,
+      "end": 3.45,
+      "text": "每一个【今天】，都站在无数个昨天之上",
+      "position": "bottom"
+    },
+    {
+      "start": 4.45,
+      "end": 7.45,
+      "text": "光速不是【无限快】，它也需要时间",
+      "position": "bottom"
+    },
+    {
+      "start": 8.45,
+      "end": 11.45,
+      "text": "每天进步【1%】，一年后是【37.8 倍】",
+      "position": "bottom"
+    }
+  ],
+  "sources": "sources.md",
+  "notes": "notes.md"
+}

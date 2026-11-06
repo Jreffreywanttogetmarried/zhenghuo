@@ -1,0 +1,13 @@
+{
+  "name": "science-video-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "代码动画科普视频工坊：大纲、分镜、风格选型、Canvas 动画与 MP4 渲染",
+  "scripts": {
+    "serve": "python -m http.server 8080",
+    "check": "python tools/check_episode.py episodes/000-style-test",
+    "stills": "python tools/snapshot.py episodes/000-style-test --every 4",
+    "render": "python tools/render_video.py episodes/000-style-test",
+    "srt": "python tools/export_srt.py episodes/000-style-test"
+  }
+}
